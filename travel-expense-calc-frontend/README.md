@@ -53,7 +53,7 @@ To get started with the project, follow these steps:
 
 3. **Run the application:**
    ```
-   npm run dev
+   npm start
    ```
 
 4. **Open your browser:**
