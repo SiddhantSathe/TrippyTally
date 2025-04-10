@@ -279,8 +279,15 @@ a:hover {
   color: white;
 }
 
+.travel-history{
+  align-items: center;
+  width: 170vb;
+}
+
 .history-wrapper {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .history-container {
@@ -288,6 +295,7 @@ a:hover {
   border-radius: var(--border-radius);
   box-shadow: var(--card-shadow);
   padding: 2rem;
+  width: 80%;
 }
 
 .history-container h2 {

@@ -49,6 +49,7 @@ const TravelHistory = () => {
   };
 
   return (
+    <div className="travel-history">
     <div className="history-container">
       <h2>Recent Travel Expenses</h2>
       
@@ -135,6 +136,7 @@ const TravelHistory = () => {
           </table>
         </div>
       )}
+    </div>
     </div>
   );
 };

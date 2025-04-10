@@ -92,7 +92,7 @@ function App() {
         </nav>
       </header>
       
-      <main className="app-content">
+      <main className="app-content"> 
         {activeTab === 'calculator' ? (
           <>
             <div className="form-container">
