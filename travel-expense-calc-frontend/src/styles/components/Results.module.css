@@ -1,0 +1,23 @@
+.results {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.resultTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.resultValue {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+}

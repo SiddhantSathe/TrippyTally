@@ -1,0 +1,6 @@
+venv
+backend/.env
+node_modules
+travelbudget
+travelbudget-c1209-firebase-adminsdk-fbsvc-69e602a0ab.json
+.vscode

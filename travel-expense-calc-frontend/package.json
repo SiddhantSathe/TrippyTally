@@ -1,0 +1,35 @@
+{
+  "name": "travel-expense-calc-frontend",
+  "version": "1.0.0",
+  "description": "A React frontend for the Travel Expense Calculator application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "vite": "^2.0.0"
+  },
+  "keywords": [
+    "react",
+    "travel",
+    "expense",
+    "calculator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/travel-expense-calc-frontend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/travel-expense-calc-frontend.git"
+  }
+}
