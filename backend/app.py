@@ -89,8 +89,10 @@ app = Flask(__name__)
 CORS(app)
 
 # MongoDB Atlas connection
+mongo_user = os.getenv("MONGO_USER")
 mongo_pass = os.getenv("MONGO_PASS")
-MONGO_URI = f"mongodb+srv://sathesiddhant21:{mongo_pass}@travelexpensecalc.zvjkwdm.mongodb.net/?retryWrites=true&w=majority&appName=travelexpensecalc"
+# MONGO_URI = f"mongodb+srv://sathesiddhant21:{mongo_pass}@travelexpensecalc.zvjkwdm.mongodb.net/?retryWrites=true&w=majority&appName=travelexpensecalc"
+MONGO_URI = f"mongodb+srv://{mongo_user}:{mongo_pass}@travelexpensecalc.zvjkwdm.mongodb.net/?retryWrites=true&w=majority&appName=travelexpensecalc"
 client = MongoClient(MONGO_URI)
 db = client.travel_expense_db
 travel_records = db.travel_records
